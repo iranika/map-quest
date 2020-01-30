@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>シノハユ the dawn of age 舞台探訪マップ-東日本エリア</name>
+    <description><![CDATA[シノハユ探訪マップ-東日本エリア<br>シノハユ第0話～第64話「三百」まで。<br><br>シノハユ探訪マップ-山陰エリアは、こちら<br>https://www.google.com/maps/d/edit?mid=z90q9U2apESg.kNYHcWUVD7uQ<br><br>シノハユ探訪マップ-西日本エリア(山陰エリア以外)は、こちら<br>https://www.google.com/maps/d/edit?mid=z90q9U2apESg.kEtSVUb1gaiY<br><br>シノハユ探訪マップ-ヨーロッパエリアは、こちら<br>https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1_t9JQVEX-KtnPMUQp5dccsUBKCD8VW35&ll=46.09707559264183%2C1.5599081000000297&z=7]]></description>
+    <Style id="icon-1231-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1231-poi-barn.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1231-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1231-poi-barn.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1231-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1231-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1231-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-167-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-167-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-167">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-167-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-167-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-009D57-nodesc-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-009D57-nodesc-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-4186F0-normal">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-4186F0-highlight">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-4186F0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-4186F0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-4186F0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-62AF44-normal">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-62AF44-highlight">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-62AF44">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-62AF44-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-62AF44-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-62AF44-nodesc-normal">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-62AF44-nodesc-highlight">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-62AF44-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-62AF44-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-62AF44-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-CDDC39-normal">
+      <IconStyle>
+        <color>ff39dccd</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-CDDC39-highlight">
+      <IconStyle>
+        <color>ff39dccd</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-CDDC39">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-CDDC39-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-CDDC39-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-962-B29189-normal">
+      <IconStyle>
+        <color>ff8991b2</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-962-B29189-highlight">
+      <IconStyle>
+        <color>ff8991b2</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-962-B29189">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-962-B29189-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-962-B29189-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>東京エリア</name>
+      <Placemark>
+        <name>第4巻第16話P59</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/0nt_AAQgDZ1EfQLzprZ6qsc_PMKgqvXbra3Xue7X3x2R9j-Yi_UHpiww-1EjMd1X-EmTFdiBT3mzuuSQpw2f1JGE5t7__lwMmLeBKUml" height="200" width="auto" /><br><br>撮影時は車と人に注意]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/0nt_AAQgDZ1EfQLzprZ6qsc_PMKgqvXbra3Xue7X3x2R9j-Yi_UHpiww-1EjMd1X-EmTFdiBT3mzuuSQpw2f1JGE5t7__lwMmLeBKUml</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.755637,35.6958831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第4巻第16話P??</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/bfrdglREMZAPlcgWhGKUH0dXkWZiZTIQ7MCIOJeG7Q3fTyxrJV-Lz4199aswmgvvZdBI-MEQJK-uGD4-vX3dFYMyq_hlvFj7ldjpwK7PDkg" height="200" width="auto" /><br><br>超広角に見えたけど、違うか。後日差し替え予定]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/bfrdglREMZAPlcgWhGKUH0dXkWZiZTIQ7MCIOJeG7Q3fTyxrJV-Lz4199aswmgvvZdBI-MEQJK-uGD4-vX3dFYMyq_hlvFj7ldjpwK7PDkg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7556155,35.6960225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>リチャードソンが向かっていた編集部って集〇社？</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/gqW3d8-UMMY8vAGdf98qQT_9OjIXwSbl3UfUM-98KZlQEJABIUT72RsICuYvyAeIEp2yWozkoo5HtIsXYdlLBmYtzoStraYsegszi-hxC_c" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-962-B29189</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/gqW3d8-UMMY8vAGdf98qQT_9OjIXwSbl3UfUM-98KZlQEJABIUT72RsICuYvyAeIEp2yWozkoo5HtIsXYdlLBmYtzoStraYsegszi-hxC_c</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7554493,35.6953952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第20話「全国①」</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/6HhSWGM85BwFSZSg_BqZPO_GKpQxqy2pi3elt8QzaaxMKl-yRF9uDuWwKH6EuyouD6uXRKF7GILZ6O7ZAT8NhrAot4fHR8BqhGi44ei9" height="200" width="auto" /><br><br>羽田空港着 K席からの景色]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/6HhSWGM85BwFSZSg_BqZPO_GKpQxqy2pi3elt8QzaaxMKl-yRF9uDuWwKH6EuyouD6uXRKF7GILZ6O7ZAT8NhrAot4fHR8BqhGi44ei9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.8415376,35.4552165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第20話</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/NuIgeL0s4TElf7gjQQj__AzoIxkbrQTyMtXei39QRrO15pGCQ506v0m-Tuar6pUf2NqoER81zgc7AvJTL9ZLDYPEG_nbne8uko27NQhY" height="200" width="auto" /><br><br>この辺]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/NuIgeL0s4TElf7gjQQj__AzoIxkbrQTyMtXei39QRrO15pGCQ506v0m-Tuar6pUf2NqoER81zgc7AvJTL9ZLDYPEG_nbne8uko27NQhY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7845218,35.5494987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第20話</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/PnDYfjneAynfnUzBmOSgmXckjbbYXXvPrxpnFmrvVEOOooIbOykPa1WkhFc1S9p2CdHF16Ods95VOoJh5g91_imy5eBzNU_ndjM9yvMC" height="200" width="auto" /><br><br>地図上の場所の正確さは怪しいです。]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/PnDYfjneAynfnUzBmOSgmXckjbbYXXvPrxpnFmrvVEOOooIbOykPa1WkhFc1S9p2CdHF16Ods95VOoJh5g91_imy5eBzNU_ndjM9yvMC</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.78365,35.5495685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第20話</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/kKfjbLu25Qv5i2nII8o_4O307rMRqeya-zMaMWyQFvizEtXoDGkbPUa_EapRD58_XkcM4dEPxmZ_Tgtz7EtKv1EH000J52GNMOYfkMMW" height="200" width="auto" /><br><br>地図上の場所の正確さは怪しいです。]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/kKfjbLu25Qv5i2nII8o_4O307rMRqeya-zMaMWyQFvizEtXoDGkbPUa_EapRD58_XkcM4dEPxmZ_Tgtz7EtKv1EH000J52GNMOYfkMMW</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7833362,35.5499701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第20話</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/kPVfb-3OBTJ-u6xfQXTDL_cYDh24ghX6p7hKXtpIeZgVIvsVURj17PzBG3kSKntj3u352ETPxFMLSje5Focv7y8uCV9ESvLSDn2Acfo-" height="200" width="auto" /><br><br>13番搭乗口より]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/kPVfb-3OBTJ-u6xfQXTDL_cYDh24ghX6p7hKXtpIeZgVIvsVURj17PzBG3kSKntj3u352ETPxFMLSje5Focv7y8uCV9ESvLSDn2Acfo-</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7829044,35.5486999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第25話</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/aTM4131OLgnien1fHAER_doDG4miAYbl2EcpIVaqEyhCOYx_2id-JHRssBpRxEfWoclsE1mG96myrP2ei9u17gX0q22KO1uKAnjBjZRr" height="200" width="auto" /><br><br>第6巻になるかも。文京シビックセンター展望台より。]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/aTM4131OLgnien1fHAER_doDG4miAYbl2EcpIVaqEyhCOYx_2id-JHRssBpRxEfWoclsE1mG96myrP2ei9u17gX0q22KO1uKAnjBjZRr</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7515708,35.709762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第24話</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/d3Xnzc6CZoUgPTM1CMusl888ScNdthuBqZC-NjgbCBKOE-nl5ePmrzpxJIMdR5oQrBOK6i0bn16oS3i0c6TVitZfOnJ7kFAqC5Jg6Esl" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/d3Xnzc6CZoUgPTM1CMusl888ScNdthuBqZC-NjgbCBKOE-nl5ePmrzpxJIMdR5oQrBOK6i0bn16oS3i0c6TVitZfOnJ7kFAqC5Jg6Esl</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7641933,35.676629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第20話P14-3</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/mkppPGzzvJ_M66hI_KYBwivXf0Cn3KStSG7-BmrH1jKDcuY9-1lXJ5AHhbfSik7Ks8nn1fCSMzMf2oXXT0dS6b97_9IdXSDJV3G3xCJT" height="200" width="auto" /><br><br>夕方だと西日で逆光ですので、朝がお勧め]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/mkppPGzzvJ_M66hI_KYBwivXf0Cn3KStSG7-BmrH1jKDcuY9-1lXJ5AHhbfSik7Ks8nn1fCSMzMf2oXXT0dS6b97_9IdXSDJV3G3xCJT</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7054323,35.5518095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第21話P65-4</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/HTaIDXvrBM03uM1zJ-lXZP2uceSVqqUTUIoBmqpG8sXEeT0ptpkY2SsnL0BB-Csac035zHwEuFJpd6o5B36Ba0-s-UIpT4eRVXtYZmyT" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/HTaIDXvrBM03uM1zJ-lXZP2uceSVqqUTUIoBmqpG8sXEeT0ptpkY2SsnL0BB-Csac035zHwEuFJpd6o5B36Ba0-s-UIpT4eRVXtYZmyT</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7053282,35.5510568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第20話P15-3</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/yat1nHWqqNkbRDYxY4PZ7UZnyWnYqHMzwRWk0vBChjw8HY-1_2L_jlR7r2eXR1b5TDaY5kGg2N8FGpeWhTtTrB7xqq-ma6fBef9em4J0" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/yat1nHWqqNkbRDYxY4PZ7UZnyWnYqHMzwRWk0vBChjw8HY-1_2L_jlR7r2eXR1b5TDaY5kGg2N8FGpeWhTtTrB7xqq-ma6fBef9em4J0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7053128,35.5515451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第20話P14-4</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/OgcU9wv92tio5xdkOp41AKwIcKJclMaqhD5nECUQ0rCyfBm2TWFTs-wxww2hUwstaUCJqmiee6KpDTag7A5SIQbEAQwr6k7PytP2tTvy" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/OgcU9wv92tio5xdkOp41AKwIcKJclMaqhD5nECUQ0rCyfBm2TWFTs-wxww2hUwstaUCJqmiee6KpDTag7A5SIQbEAQwr6k7PytP2tTvy</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7051834,35.5517867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第5巻第20話P29-2</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/oNUNmdzOh0QsEJuzi6uNl09NmmSIExxlmCRHzxCsIf-1EJqhHoJEcMmtw_5gSPBO2lz_vXmXRrpiL2e-zbX_qnbQDFJVA18X9ph7Dlln" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/oNUNmdzOh0QsEJuzi6uNl09NmmSIExxlmCRHzxCsIf-1EJqhHoJEcMmtw_5gSPBO2lz_vXmXRrpiL2e-zbX_qnbQDFJVA18X9ph7Dlln</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.7051311,35.5510917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>横浜エリア</name>
+      <Placemark>
+        <name>第1巻第1話P5-1コマ目</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/y98rvMiOO_3WadG5KRdXDffy03JYM8Rw0WmEWuRAcOfHULR1tYAfL4PJe9Janu4Ob9m7zGNexdOgPOwGYbRPS48uIZo_ulikozYIbvxxE9Qg8y1WMQskpTlFwYzz4I8G" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/y98rvMiOO_3WadG5KRdXDffy03JYM8Rw0WmEWuRAcOfHULR1tYAfL4PJe9Janu4Ob9m7zGNexdOgPOwGYbRPS48uIZo_ulikozYIbvxxE9Qg8y1WMQskpTlFwYzz4I8G</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.625663,35.471593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第1巻第1話P5-1コマ目</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/dTNsrFMpAfcehAkids1Q5qSEoMeqqjq8leqwwQDyppbEEEMaKca_mqJm5-MSHmEtrCXc6klgBoydVExauc0dEweSf8N2YMeIHe6I9ZiYH3oNSS1A8bgkumz5oMA49QMr" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/dTNsrFMpAfcehAkids1Q5qSEoMeqqjq8leqwwQDyppbEEEMaKca_mqJm5-MSHmEtrCXc6klgBoydVExauc0dEweSf8N2YMeIHe6I9ZiYH3oNSS1A8bgkumz5oMA49QMr</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.647598,35.428262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第1巻第1話P35-1コマ目</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/wqgqBJpWNUpU9DZY7lGor3gnuolRgIMycR5HKLKYGHlQsi8-nq9PrHH_rHDerrZzZwgv7Mbhmp3fxBC-ibRezhNJJ7_0tqpzan_ENa93rwfX6dtbYR842LZShSZWMn1c" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/wqgqBJpWNUpU9DZY7lGor3gnuolRgIMycR5HKLKYGHlQsi8-nq9PrHH_rHDerrZzZwgv7Mbhmp3fxBC-ibRezhNJJ7_0tqpzan_ENa93rwfX6dtbYR842LZShSZWMn1c</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.648603,35.430214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第1巻第1話P35-2コマ目</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Ep0GBWhtY8Qgkk2nuLuYRuvL17Eo8oLTR6dx-SwUZF4c0vFyWIhLVABrGngV-0yL2t4XyzRuxcOhxBYrtzStFSXfIUfMBFGDRgmWiiwDFJU-Ra63WdbXvclEYQQKEnv0" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/Ep0GBWhtY8Qgkk2nuLuYRuvL17Eo8oLTR6dx-SwUZF4c0vFyWIhLVABrGngV-0yL2t4XyzRuxcOhxBYrtzStFSXfIUfMBFGDRgmWiiwDFJU-Ra63WdbXvclEYQQKEnv0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.64862,35.430247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第1巻第1話P35-3コマ目</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Cxp1VyP0bGOyYVnXYQM_1bXAHTekXhKsDUj2TgCV534cFnSo-tpKOMrtus8T5onAQ-iBCzkVDXtk2qzMKltqc6D_uyI3ad7IWDctR8HfQzFY8Dl2mhRBxHJWuLjBRazl" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/Cxp1VyP0bGOyYVnXYQM_1bXAHTekXhKsDUj2TgCV534cFnSo-tpKOMrtus8T5onAQ-iBCzkVDXtk2qzMKltqc6D_uyI3ad7IWDctR8HfQzFY8Dl2mhRBxHJWuLjBRazl</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.648598,35.430229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第1巻第1話P10ｰ1コマ目</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/zlxhNbqsaFNiiod9q0yfgo3ZZQpwE-1dbEvJV0R451ujbvWruYTh3GysvFdzavBmNpfQi5hCdIcYBtPDtSSc79pxqnA3dC4M-_auIMIY2nDqAftP3Ms1mLi8Jmc6AsA" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/zlxhNbqsaFNiiod9q0yfgo3ZZQpwE-1dbEvJV0R451ujbvWruYTh3GysvFdzavBmNpfQi5hCdIcYBtPDtSSc79pxqnA3dC4M-_auIMIY2nDqAftP3Ms1mLi8Jmc6AsA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.646772,35.433472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第1巻第1話P24</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/5-iDq8mcEuZZ8yb-5HYIDnPWtNZXN9KuU1jI6eOVTYWeVP8ki2WWTaRC9hYe4_R5BWJvh3JNTUoa92hcN7rQT23UQytzC2_qGjQ4O6_XZTjWrW6oLVMj1w-hT-PmM1g" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/5-iDq8mcEuZZ8yb-5HYIDnPWtNZXN9KuU1jI6eOVTYWeVP8ki2WWTaRC9hYe4_R5BWJvh3JNTUoa92hcN7rQT23UQytzC2_qGjQ4O6_XZTjWrW6oLVMj1w-hT-PmM1g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.652278,35.438438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第1巻第1話P11-3コマ目</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/t0gZCB3QJk7xHxlbYLcU0NKrroSvPW8RPEI3x-SFItLObQj05gtXnm6D6zdVoiqceQ4im2dZY2J-z2HIzvfGi3IHbAsLEARwkynDhd4tL26TNm1AyJnXYQ5vbagH2eM" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/t0gZCB3QJk7xHxlbYLcU0NKrroSvPW8RPEI3x-SFItLObQj05gtXnm6D6zdVoiqceQ4im2dZY2J-z2HIzvfGi3IHbAsLEARwkynDhd4tL26TNm1AyJnXYQ5vbagH2eM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.654563,35.440736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ここで左折します</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/_ER-V_fwP4egSG5eW_TICRpsfxnEGAjxlySerD8pk26Twr_RITHGhW-t1BV-AP2WJTPO6IuceHoFB5-L1aB1rGxsfh9fC0c0El_XKt0ZnoseVEDLVZ-c3D5BJxk" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/_ER-V_fwP4egSG5eW_TICRpsfxnEGAjxlySerD8pk26Twr_RITHGhW-t1BV-AP2WJTPO6IuceHoFB5-L1aB1rGxsfh9fC0c0El_XKt0ZnoseVEDLVZ-c3D5BJxk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.649491,35.429794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ここに来ると遠回りですよ(^^)</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/dh3gk5nkEJrpRqwg6tz7gX4EMOI9fLpkIgAtJQCsfaPZQ7SK_UDBfBcfNLBK7lAmnY33Sd0Zd8aonYh1-h-08HLxtTSIdd_ggBmGQ9mc00LR_JklSioQFDWPkk0" height="200" width="auto" /><br><br>素直に、本覚寺会館の坂道を登りましょう。]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/dh3gk5nkEJrpRqwg6tz7gX4EMOI9fLpkIgAtJQCsfaPZQ7SK_UDBfBcfNLBK7lAmnY33Sd0Zd8aonYh1-h-08HLxtTSIdd_ggBmGQ9mc00LR_JklSioQFDWPkk0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.625649,35.47123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第3巻第9話 P50</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/MP6QMOn6kPCCM638OVXr4viwl1R23MfBxwUJhKL6STzrQzsQyzIfcLwiIB86bGnGlSb5ex0StpvqV7qHKvqCT8FijkmW9KKNtRl-tGYCroS58lC1wGYUUQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/MP6QMOn6kPCCM638OVXr4viwl1R23MfBxwUJhKL6STzrQzsQyzIfcLwiIB86bGnGlSb5ex0StpvqV7qHKvqCT8FijkmW9KKNtRl-tGYCroS58lC1wGYUUQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.616683,35.507653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第3巻第10話 P75-1</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/u3LjFSbpp83YA9KoOaaGlOKnnOi0hDOTqkt_kQkb0NQu8FHbLkPP-vRW1PVkf8sHmYiVSXrR9tFf0Sz9SazeuGXxOI1mNiplXeBs2vvsld93koExYVEM_A" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/u3LjFSbpp83YA9KoOaaGlOKnnOi0hDOTqkt_kQkb0NQu8FHbLkPP-vRW1PVkf8sHmYiVSXrR9tFf0Sz9SazeuGXxOI1mNiplXeBs2vvsld93koExYVEM_A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.617487,35.509295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第3巻第9話P49-3</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/rM9vZ1V0Eywk6XMm9aJGf1kKbAwLEoq5IZcWulGH1dvNZlLiwHlX5wcEX2HX6KJ_6vw2Lkp5DpzLPI9OzQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/rM9vZ1V0Eywk6XMm9aJGf1kKbAwLEoq5IZcWulGH1dvNZlLiwHlX5wcEX2HX6KJ_6vw2Lkp5DpzLPI9OzQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.618828,35.508466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第3巻第10話P75-4</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/B1hq_Hct41Ohc9pFS2r6_xNYUH2AR8GbTUVX8IqZN5DbZKYJbcmdfLt_itUF6IBAbDvJcuELEqrF4wPbkRFH_uPNWT8" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/B1hq_Hct41Ohc9pFS2r6_xNYUH2AR8GbTUVX8IqZN5DbZKYJbcmdfLt_itUF6IBAbDvJcuELEqrF4wPbkRFH_uPNWT8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.61988,35.466118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第3巻第10話P70-P71</name>
+        <description>横浜アリーナ いつか行きたい</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            139.619901,35.511872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BG2019-vol.4 第66話P174-1</name>
+        <description><![CDATA[<img src="https://doc-0k-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/obb0cr0jnl3r3mc25mjcjp75ms/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqlFWLYWaIYHfQxP7rlzHJgbudWOmlJMrK1JUeH-wAKE3d2IM_768SvhSksRS3mOpYffJEnzc2SkmcjoflCU-PEU9F4kQ8l3RJ0aCsqtdBfFXysn5gBk7pvijC9HAvIgTtRhbZitTH81hAnt4b1k_BNixwvT9BChV4C5qmlNP4vxpVTcmBgkhX0nk0GWXnDdBqodVN6CEERFYoYrX9TDuqh_DL19cAGZaCtl8-k3jMoR0HRdTn-r4nxtXuhtaAzDxCNnPdMytEmUa77zL2C4TO1A8MTOg?session=0&fife" height="200" width="auto" /><br><br>信号注意]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/obb0cr0jnl3r3mc25mjcjp75ms/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqlFWLYWaIYHfQxP7rlzHJgbudWOmlJMrK1JUeH-wAKE3d2IM_768SvhSksRS3mOpYffJEnzc2SkmcjoflCU-PEU9F4kQ8l3RJ0aCsqtdBfFXysn5gBk7pvijC9HAvIgTtRhbZitTH81hAnt4b1k_BNixwvT9BChV4C5qmlNP4vxpVTcmBgkhX0nk0GWXnDdBqodVN6CEERFYoYrX9TDuqh_DL19cAGZaCtl8-k3jMoR0HRdTn-r4nxtXuhtaAzDxCNnPdMytEmUa77zL2C4TO1A8MTOg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6538899,35.4398356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第11巻第65話P198-199見開き</name>
+        <description><![CDATA[<img src="https://doc-08-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/3iqthls29rtscca76kmiof1dgg/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALpxHRH849OPGd1ykQgzZJ6wjaXOc4jjTlxAPfCUDiAZF-fH4x2hJ9LyNVkWGm8mR20E387oSU1a-nln18qTWy01937UhMEEhoNaZJBHb5ubqFmiWDx7kg0vJ8M_9rBiOz_G7dtm6LyS9MVS2TnIEkAlSiEYBfs9SsYDRngTO1ZJGEyHpG8IO_WhE0PJXbMho2zcFe1v8YfTomhV6J0QL-pLkOa5YiUxVk4-3KfHl_owH8En3Sto2mvfYsJDd6-nfb_zr_buGY5T-tDjoA9z3n6H3rhu0g?session=0&fife" height="200" width="auto" /><br><br>P198以降 この辺]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/3iqthls29rtscca76kmiof1dgg/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALpxHRH849OPGd1ykQgzZJ6wjaXOc4jjTlxAPfCUDiAZF-fH4x2hJ9LyNVkWGm8mR20E387oSU1a-nln18qTWy01937UhMEEhoNaZJBHb5ubqFmiWDx7kg0vJ8M_9rBiOz_G7dtm6LyS9MVS2TnIEkAlSiEYBfs9SsYDRngTO1ZJGEyHpG8IO_WhE0PJXbMho2zcFe1v8YfTomhV6J0QL-pLkOa5YiUxVk4-3KfHl_owH8En3Sto2mvfYsJDd6-nfb_zr_buGY5T-tDjoA9z3n6H3rhu0g?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6557547,35.4395829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BG2019-Vol.4 第66話P172扉絵</name>
+        <description><![CDATA[<img src="https://doc-0o-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/2e93g5b99jc0khgmkhsgnh69gc/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALruHRMdZ-XGRgoOE80JOrWPww68zUs9dRFKoMgt1I_g3TWe87ZwQ2jrsWewEFSMTtP8rkxNgX-gkH2SBlNXSwldqXIi6-Ygh_5jrwhhtUebV7KOHpVfg0YIzryVNJhLobufTPvo3nWeh-Y0cUY17ORHDcoDGQ1IDDiFNNWV1egoXQTSTd-AtCq0vi_Q14iv304x1i2RMNMPIO-onL4hPNc3gn4LAwm6nWmBDLoSv7xear0D-UGZMzIkGCaoWr9HhZoj1bI8CLz4mt3oSkEL-hjKUpoqeQ?session=0&fife" height="200" width="auto" /><br><br>超広角じゃないけど超ローアングル]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/2e93g5b99jc0khgmkhsgnh69gc/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALruHRMdZ-XGRgoOE80JOrWPww68zUs9dRFKoMgt1I_g3TWe87ZwQ2jrsWewEFSMTtP8rkxNgX-gkH2SBlNXSwldqXIi6-Ygh_5jrwhhtUebV7KOHpVfg0YIzryVNJhLobufTPvo3nWeh-Y0cUY17ORHDcoDGQ1IDDiFNNWV1egoXQTSTd-AtCq0vi_Q14iv304x1i2RMNMPIO-onL4hPNc3gn4LAwm6nWmBDLoSv7xear0D-UGZMzIkGCaoWr9HhZoj1bI8CLz4mt3oSkEL-hjKUpoqeQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6359604,35.453287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BG2019-Vol.5第67話P458-1</name>
+        <description><![CDATA[<img src="https://doc-00-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/dj2g6ussv5jkdfs2dbulv0vni4/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqHL6VFD8z6Ny-B7ngAH3JpuqoLZDq7e5NuS5CyEZ0-VHW8YMzRudZcPctWnd40YqqFlw2dXFP254OHTqZms8M8J3uaj31dEz9Z77_-HqxS-qvowI_EVJ_KwdWra_fXnzBikTMf0xyM16RbW-13ILqtfpIxvT89ZVAQPhmdH4M5cRopMjQXxQ77xiAkFvF7xWotQnsIgbMH60FSyykQDg_QkVQjTfqeSF7GCDc5kX-h8mBaqxrNHGPoyeDjstwuF02VOzBAcdpwcESePRcLYqUSrl3y_g?session=0&fife" height="200" width="auto" /><br><br>この辺？]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/dj2g6ussv5jkdfs2dbulv0vni4/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqHL6VFD8z6Ny-B7ngAH3JpuqoLZDq7e5NuS5CyEZ0-VHW8YMzRudZcPctWnd40YqqFlw2dXFP254OHTqZms8M8J3uaj31dEz9Z77_-HqxS-qvowI_EVJ_KwdWra_fXnzBikTMf0xyM16RbW-13ILqtfpIxvT89ZVAQPhmdH4M5cRopMjQXxQ77xiAkFvF7xWotQnsIgbMH60FSyykQDg_QkVQjTfqeSF7GCDc5kX-h8mBaqxrNHGPoyeDjstwuF02VOzBAcdpwcESePRcLYqUSrl3y_g?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6411853,35.4528675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BG2019-Vol.5第67話P461-2</name>
+        <description><![CDATA[<img src="https://doc-08-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/vkf86jrt6mqpscmge0jqchgamc/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALpZ_LzexZiio9jucepPkVNsgdUY8cC3RVDjotDIuPgRpHSRIPtZziUrZetC0HuolwwT4PikUXkV9ZAwvES8aBE5fa2YPttX0YmfG5ENiLObgKu_JwaBn4Zqdre6DPHeTFtLEn4AAxMUtNSgYfgXw3kcTiAOam3knmGOwJjPmmzsj3NvrOTkEy7IkeQlBk_5DcMJE_kM4rTObPD9dalxetulqFK-OctCHvOqtGcb7il8olyNLbeQiDX3TaxwJ8gAV1LVavkjY_cry9fP48ceZ5qNDVO7Xg?session=0&fife" height="200" width="auto" /><br><br>この辺？]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/vkf86jrt6mqpscmge0jqchgamc/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALpZ_LzexZiio9jucepPkVNsgdUY8cC3RVDjotDIuPgRpHSRIPtZziUrZetC0HuolwwT4PikUXkV9ZAwvES8aBE5fa2YPttX0YmfG5ENiLObgKu_JwaBn4Zqdre6DPHeTFtLEn4AAxMUtNSgYfgXw3kcTiAOam3knmGOwJjPmmzsj3NvrOTkEy7IkeQlBk_5DcMJE_kM4rTObPD9dalxetulqFK-OctCHvOqtGcb7il8olyNLbeQiDX3TaxwJ8gAV1LVavkjY_cry9fP48ceZ5qNDVO7Xg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6425425,35.4513686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第11巻第65話P188-3 </name>
+        <description><![CDATA[<img src="https://doc-04-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/pnl410o9qai45nokb6bqgj47co/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALpMGpVSG-DgDWxXP9W-fibQSzkmqIVikPRnfHOmoaihKllDAA3MRY2GdcU3dAzVH-1KmRbZJTSY3QjFsLu3jagerSRT2maYymKio489gGESP2gzorVEH4NV44GEHD07jqF_l6aJQbc0wfhpz2S445h1Ft9aB3bSXzIbYZQbg771U039R-iMGWjpwmh_rhl_FNHM6qQeiekLJPds2CSfGPKMdlrJsSGYuZiiBjgIqhL-XVRevcQNXgrkaZOJBfZE7rFhqy6Zo_eBDZN9guyyaVnb47a3Ig?session=0&fife" height="200" width="auto" /><br><br>この辺？]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/pnl410o9qai45nokb6bqgj47co/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALpMGpVSG-DgDWxXP9W-fibQSzkmqIVikPRnfHOmoaihKllDAA3MRY2GdcU3dAzVH-1KmRbZJTSY3QjFsLu3jagerSRT2maYymKio489gGESP2gzorVEH4NV44GEHD07jqF_l6aJQbc0wfhpz2S445h1Ft9aB3bSXzIbYZQbg771U039R-iMGWjpwmh_rhl_FNHM6qQeiekLJPds2CSfGPKMdlrJsSGYuZiiBjgIqhL-XVRevcQNXgrkaZOJBfZE7rFhqy6Zo_eBDZN9guyyaVnb47a3Ig?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6378513,35.4608483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第11巻第65話P181-1</name>
+        <description><![CDATA[<img src="https://doc-0c-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/kg7m94278epc2gl4nhjsup5vkg/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALrhWzIW6WlSomZGCpyOlzBQO6dp5yV50MIqdqMve8aNusEpLNPfwSfubbNnjeKzrvp6y07zdIflrTg-sxG2LZ_DsXk4Ip0bSkcpXrWxVBSWD1WRysF5x76P4BgKlypgtEDYN78AX4QTqeggTSxACDmJRYucvnus6VFQMnPWENfsoUz5CPi98FK0ML4rKVPNeFieSmBCKHDDFXrljm3r-Q7wI0N5GHBmzAezC1Q1uWRcJXoPqBuIc2x8b1egotc476MM5I_OoNvNTrQ_igAVumO5jp601Q?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/kg7m94278epc2gl4nhjsup5vkg/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALrhWzIW6WlSomZGCpyOlzBQO6dp5yV50MIqdqMve8aNusEpLNPfwSfubbNnjeKzrvp6y07zdIflrTg-sxG2LZ_DsXk4Ip0bSkcpXrWxVBSWD1WRysF5x76P4BgKlypgtEDYN78AX4QTqeggTSxACDmJRYucvnus6VFQMnPWENfsoUz5CPi98FK0ML4rKVPNeFieSmBCKHDDFXrljm3r-Q7wI0N5GHBmzAezC1Q1uWRcJXoPqBuIc2x8b1egotc476MM5I_OoNvNTrQ_igAVumO5jp601Q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6382488,35.4621043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BG2019-Vol.4 第66話P171-1</name>
+        <description><![CDATA[<img src="https://doc-0k-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/bm919dmginb0u9pa2g0bjh4bkg/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALrvmdCV-7cLt4t9sVhv-2lZ9tErzOHlEbgnptMOII4VHYUH9WmntT9lrGMd4r5Iv8jmvJZvZ-x7x20Tx7pCKsIV8qjc1Di9NImS5-gGkhWxBH5tlpBPdNCx22FFHUJDC-UPrrhA4RrIxRoS_FbQzmTH6O33kWV0KUSHv8E9GbYjKKSOnck3YMrQPXw6okw1DozjIruXF75VniirTVptcii3v802Fp1fAv4NKF6LuFm3e4n-1rmSZPobOOusfOqnUFrL_UzR_xfQ1PilzEf92uRKUwOOMw?session=0&fife" height="200" width="auto" /><br><br>トリミングしてる]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/bm919dmginb0u9pa2g0bjh4bkg/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALrvmdCV-7cLt4t9sVhv-2lZ9tErzOHlEbgnptMOII4VHYUH9WmntT9lrGMd4r5Iv8jmvJZvZ-x7x20Tx7pCKsIV8qjc1Di9NImS5-gGkhWxBH5tlpBPdNCx22FFHUJDC-UPrrhA4RrIxRoS_FbQzmTH6O33kWV0KUSHv8E9GbYjKKSOnck3YMrQPXw6okw1DozjIruXF75VniirTVptcii3v802Fp1fAv4NKF6LuFm3e4n-1rmSZPobOOusfOqnUFrL_UzR_xfQ1PilzEf92uRKUwOOMw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6557207,35.4396254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第11巻第65話P195-1</name>
+        <description><![CDATA[<img src="https://doc-00-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/qggpmdoh0u0qe561qumssj0l48/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALoM5H0d58n_kQuZaaoDTKIP2c4AtPafD-JiRzyIx6kXOc39Wb89HffMCb4r9H8Sczh1t_oT0cQDIpAl5vqsJ1FPHgOpq3rTKHeqwcSBPK3CM2qVvDNeUE8XPcsr-NVbrOvMb7Ey8YA1ZmN0fA8Jts044mJxJtkN_Dxz6t_0ySmcb_MEMvZJ-Isd9mviQJ8j_TtPIq8jFb7PyPyiCw0_jyQtwM874rywIea9DXg9RW5CdKnPct3BtTN7tZxsekQ6znJwci1UnoQmkN7K0QkIsCkl8UeG9w?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/qggpmdoh0u0qe561qumssj0l48/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALoM5H0d58n_kQuZaaoDTKIP2c4AtPafD-JiRzyIx6kXOc39Wb89HffMCb4r9H8Sczh1t_oT0cQDIpAl5vqsJ1FPHgOpq3rTKHeqwcSBPK3CM2qVvDNeUE8XPcsr-NVbrOvMb7Ey8YA1ZmN0fA8Jts044mJxJtkN_Dxz6t_0ySmcb_MEMvZJ-Isd9mviQJ8j_TtPIq8jFb7PyPyiCw0_jyQtwM874rywIea9DXg9RW5CdKnPct3BtTN7tZxsekQ6znJwci1UnoQmkN7K0QkIsCkl8UeG9w?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6304578,35.4299532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第11巻第63話扉絵P130-131</name>
+        <description><![CDATA[<img src="https://doc-0c-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/83lg060de9e9i7k1v45jb4q6dk/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALpq3lAzZHECuzTeyOx2OICvNeN6FZ8psqzuBKz5G2gC_Q7Bu7vgN6hhaf01ZvW3q1cVvLfvEzZV7kYLCVk0faic5MLBzh1bTw048Cb0sGKY8EesMUCtuThJ7o2EJTtoTwjKKLp5lttrhU4XeVnaNZdmKoCnea1Jk_ZEJV_GoF9OhEZ-B1iK5jz6ceSKw-_1qmoUKzwPG-xY_FQWro0vJP-lXmzVw7RIv_gLeg6vNGyOgao54-4vE14_Vh5yz5EJM3I3xnTtBPOlEkYsTIDmTuUn2vbYjg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/83lg060de9e9i7k1v45jb4q6dk/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALpq3lAzZHECuzTeyOx2OICvNeN6FZ8psqzuBKz5G2gC_Q7Bu7vgN6hhaf01ZvW3q1cVvLfvEzZV7kYLCVk0faic5MLBzh1bTw048Cb0sGKY8EesMUCtuThJ7o2EJTtoTwjKKLp5lttrhU4XeVnaNZdmKoCnea1Jk_ZEJV_GoF9OhEZ-B1iK5jz6ceSKw-_1qmoUKzwPG-xY_FQWro0vJP-lXmzVw7RIv_gLeg6vNGyOgao54-4vE14_Vh5yz5EJM3I3xnTtBPOlEkYsTIDmTuUn2vbYjg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.6504377,35.4391197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>名古屋エリア</name>
+      <Placemark>
+        <name>第5巻第24話</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/ymtHWiN3zm4q7GFfmuYBsyEPC0-l0L5AbEfigAkBQ8nfRhB9Lq5ObdovEJ-aEY2zTNU1w1LFozATSGKvVxyrQ3kZfsOW0YyQQP9SaO71" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/ymtHWiN3zm4q7GFfmuYBsyEPC0-l0L5AbEfigAkBQ8nfRhB9Lq5ObdovEJ-aEY2zTNU1w1LFozATSGKvVxyrQ3kZfsOW0YyQQP9SaO71</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            136.9739556,35.1590561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第4巻第18話P156</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/SrE2GLi1oU-qDxxTpP993-yPrPaWRNAZmhUnQmr2FoDSBSp6b1Or2EYOq8tc9XEi2BoAiUje8gMEBZalkwnAsv7OntyrRwl905meHyRt" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/SrE2GLi1oU-qDxxTpP993-yPrPaWRNAZmhUnQmr2FoDSBSp6b1Or2EYOq8tc9XEi2BoAiUje8gMEBZalkwnAsv7OntyrRwl905meHyRt</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            136.965791,35.153372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第11巻第64話P149-扉絵</name>
+        <description><![CDATA[<img src="https://doc-0g-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/7r77luqqet5p5m6436qpvek6as/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALorgkZnEGnmDczoWMTuWSdE-sUuRutdMr6UCIQG1qMDLL_M3zvpAFspOTxMxvVejpZIadakM4dbm848BXbqvMEzSARv-YYOaAvipiwz13HVm4ETmJrw42_1GfkJ-K_I7UoO8CsyzHeoN4rL8iFkcNZMMry2CpT_z63G52695h9ad_mZtIxCPwQPWzOwAskB5VXExlV3gAkVQkaF60wqbaWQ7YAi5Y7CTtxGsXBZhwU1dhZsfHs-UbpKgDgckDP0Su1klSMy_Mo5alygwhD-SiQq7tAjgA?session=0&fife" height="200" width="auto" /><br><br>にわちょこ＠文化のみち二葉館]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/7r77luqqet5p5m6436qpvek6as/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALorgkZnEGnmDczoWMTuWSdE-sUuRutdMr6UCIQG1qMDLL_M3zvpAFspOTxMxvVejpZIadakM4dbm848BXbqvMEzSARv-YYOaAvipiwz13HVm4ETmJrw42_1GfkJ-K_I7UoO8CsyzHeoN4rL8iFkcNZMMry2CpT_z63G52695h9ad_mZtIxCPwQPWzOwAskB5VXExlV3gAkVQkaF60wqbaWQ7YAi5Y7CTtxGsXBZhwU1dhZsfHs-UbpKgDgckDP0Su1klSMy_Mo5alygwhD-SiQq7tAjgA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            136.918675,35.180419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>千葉エリア</name>
+      <Placemark>
+        <name>第11巻 第59話P4-3</name>
+        <description><![CDATA[<img src="https://doc-0o-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/kngkc1k1g00gdj83vb0nci5hn4/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqfhr5yx99pWByHnMeXBjWax8V9fRv3eLJ7G_2HzudWsgyvPL0dwbmcR05PYpmNaGSAn439I79PGy3nmzdrc-WcG5VaRt1BQHDcIj9UPrkn7zk6gKW5SNj1ZVuZL_cl5vP51bHa_a2KbtKSJKKhpHxe9zBX0OPuQHFVNOqyv09YF5IlP-B4eUL6G6VV1Rh0psxIsAaFGF-zdA5wVPeX_3_2SQ_6O0myd7Cwpr7Z4BdZ434D-jM9Jn08xfPI59nxngoy6m4YzZEv_yXUBv9rTRSRML9KnA?session=0&fife" height="200" width="auto" /><br><br>カラー<br><br><img src="https://doc-0c-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/fftlrcnjuv78et51qh875noqc4/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALppDwPJdyjdaeS6LGUljdoQR0hX-KUHN4hsJSjChY07ekUhrtF2URKXnOMuSTJOJzzhWLhdmyMUeVcF_oWxpsIsElCPGtD-xcwmhF5DlF5YwG5L0u5zJr0RviUi5Vy1j5XxJy7MaTXlXg2u_VW5FsRwG6_6H1DNOPsTKTXZS6X4BIOluzeOWh7OlFBojlWJLI7S5qmmNXvB1MqSVnbCQRbmk3KQ0dfhfFxiV8grhZu_j5E8Xl-C0QBwrg6hILClDYD0ZG1nZmy9MGPJBX0tXTt0_eGORA?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/kngkc1k1g00gdj83vb0nci5hn4/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqfhr5yx99pWByHnMeXBjWax8V9fRv3eLJ7G_2HzudWsgyvPL0dwbmcR05PYpmNaGSAn439I79PGy3nmzdrc-WcG5VaRt1BQHDcIj9UPrkn7zk6gKW5SNj1ZVuZL_cl5vP51bHa_a2KbtKSJKKhpHxe9zBX0OPuQHFVNOqyv09YF5IlP-B4eUL6G6VV1Rh0psxIsAaFGF-zdA5wVPeX_3_2SQ_6O0myd7Cwpr7Z4BdZ434D-jM9Jn08xfPI59nxngoy6m4YzZEv_yXUBv9rTRSRML9KnA?session=0&fife https://doc-0c-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/fftlrcnjuv78et51qh875noqc4/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALppDwPJdyjdaeS6LGUljdoQR0hX-KUHN4hsJSjChY07ekUhrtF2URKXnOMuSTJOJzzhWLhdmyMUeVcF_oWxpsIsElCPGtD-xcwmhF5DlF5YwG5L0u5zJr0RviUi5Vy1j5XxJy7MaTXlXg2u_VW5FsRwG6_6H1DNOPsTKTXZS6X4BIOluzeOWh7OlFBojlWJLI7S5qmmNXvB1MqSVnbCQRbmk3KQ0dfhfFxiV8grhZu_j5E8Xl-C0QBwrg6hILClDYD0ZG1nZmy9MGPJBX0tXTt0_eGORA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.9422775,34.9240107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第11巻 第59話P4-1</name>
+        <description><![CDATA[<img src="https://doc-14-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/2od8nvm0bem0ibnhfmncvcc1p4/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALq1AVD-B074DbJ-E5JTN4qVlJW0behnadP3Pf9c48g9XpaHtujMnHGF_U3nWXqomyG_pyyzBTtnPDmJ9GjQG_RE0tuTQtPbSsG8pAt5h-7hLJKngGzKgBJIPeWmVnk1mRD61hQcMlFJkRr80ybG_yBUsrz4b3jKnkfDaFfm7Bs3dPUptEhWvuFVyA9vKCkn9cPltpsuBaUPeY72wR_Yma7OjJs2uq8vQjRPQS-0BtDC9t7khvZt5p8jiuun4o2DQgMV3L5kGLkqSx9TOz4jDb7qsDHObA?session=0&fife" height="200" width="auto" /><br><br>カラー]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/2od8nvm0bem0ibnhfmncvcc1p4/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALq1AVD-B074DbJ-E5JTN4qVlJW0behnadP3Pf9c48g9XpaHtujMnHGF_U3nWXqomyG_pyyzBTtnPDmJ9GjQG_RE0tuTQtPbSsG8pAt5h-7hLJKngGzKgBJIPeWmVnk1mRD61hQcMlFJkRr80ybG_yBUsrz4b3jKnkfDaFfm7Bs3dPUptEhWvuFVyA9vKCkn9cPltpsuBaUPeY72wR_Yma7OjJs2uq8vQjRPQS-0BtDC9t7khvZt5p8jiuun4o2DQgMV3L5kGLkqSx9TOz4jDb7qsDHObA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.9427507,34.9234304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>静岡・箱根エリア</name>
+      <Placemark>
+        <name>第9巻第45話P45-5</name>
+        <description><![CDATA[<img src="https://doc-00-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/4723oo2il1ulqskcngobhfc594/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALowgiQEyAx_MJjXpQkRB7Yw9tquQ8R33zIWCs8hIUcHXknTmRoK3ANAYgGmt317VHq5EHgKJM1bA18RQbRdZ7KYYj-JQYvjLX6pk9DuZpU3qqNrMkgu8JXk1wlrfGoAlqWiAjGrUtogHxpwuKZe2nry6JAt-yBXNGuXfEWRi7Hbl8en4kMxZmdo2QygfkRX-at_Kj4FNYubx-p3LKOFTvJ92dMffVH_IlG-FQbZ9X6u5WY1XgA-Bh62_RhoZ4UmOORs2-6his-yi8AaGYJgqsaeuDON0A?session=0&fife" height="200" width="auto" /><br><br>湖畔展望館2階バルコニーより]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/4723oo2il1ulqskcngobhfc594/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALowgiQEyAx_MJjXpQkRB7Yw9tquQ8R33zIWCs8hIUcHXknTmRoK3ANAYgGmt317VHq5EHgKJM1bA18RQbRdZ7KYYj-JQYvjLX6pk9DuZpU3qqNrMkgu8JXk1wlrfGoAlqWiAjGrUtogHxpwuKZe2nry6JAt-yBXNGuXfEWRi7Hbl8en4kMxZmdo2QygfkRX-at_Kj4FNYubx-p3LKOFTvJ92dMffVH_IlG-FQbZ9X6u5WY1XgA-Bh62_RhoZ4UmOORs2-6his-yi8AaGYJgqsaeuDON0A?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            139.02604,35.1962702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>咲-Saki-第189局「紹継」扉絵</name>
+        <description><![CDATA[<img src="https://doc-0k-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/k6c31nbjgfau5edqcsacdh999s/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALo7sFuVgU5rWvyW82-V7I1hTi4roEzjs_10ynd7L8Nlhhe6g3lh9OkbcXMfPmJGS9tMpRAWyDqS90_ECCs7KzXt1nzzHnDP_89qMlq8OBiQTusOjvN9bHwyteTQOdLE1XYCeMl_i-Q_rA6aoy28bRLhp33T60jBq8YNXDOFtrbxJx9JZw3DNuYgYwsnUO5Gdu9FH5RupZy_hGg9rXcNZ7oS4S9Sy_vBbsJ68HIghCu6cSSZNIXwYQCBeWR-6rBYCqRjLs8VivfrTtVb-_0BV9mWhfR4cg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/k6c31nbjgfau5edqcsacdh999s/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALo7sFuVgU5rWvyW82-V7I1hTi4roEzjs_10ynd7L8Nlhhe6g3lh9OkbcXMfPmJGS9tMpRAWyDqS90_ECCs7KzXt1nzzHnDP_89qMlq8OBiQTusOjvN9bHwyteTQOdLE1XYCeMl_i-Q_rA6aoy28bRLhp33T60jBq8YNXDOFtrbxJx9JZw3DNuYgYwsnUO5Gdu9FH5RupZy_hGg9rXcNZ7oS4S9Sy_vBbsJ68HIghCu6cSSZNIXwYQCBeWR-6rBYCqRjLs8VivfrTtVb-_0BV9mWhfR4cg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            138.8304315,34.7578955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>道の駅 花の三聖苑伊豆松崎</name>
+        <description>ここに車を止めることが可能</description>
+        <styleUrl>#icon-960-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            138.8253994,34.7577828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>北海道エリア</name>
+      <Placemark>
+        <name>シノハユ11巻コミック表紙</name>
+        <description><![CDATA[<img src="https://doc-0o-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/5mr92bd6egenkiod2heo1e0vvc/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqokaVFouhv8JehHaLjeBTNjgPvfTvQQ8KSP1JcmR3AcnuoG06K5DdnwE8v-Q-Ck05QTtnV27sVstgNQf-7uWeVtxy8stls4nkEXKtygf5BKH-fUNSThg5RDFJjzAKWVl2UxJDMueWNFBr24hD598Isl-ZBBV-tF6jG3eUeSWnPJsTMzMRdzZVw6HO9PvjMTKlcVzkqgxdKehrMwsePKq5wwAApjPmpmd1zZQIIkALFHhMM_6ff0_eNvY_lAj-1pxOTmZzwQ7ugLKppB4fxDKTC9AYQIQ?session=0&fife" height="200" width="auto" /><br><br>この辺]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/5mr92bd6egenkiod2heo1e0vvc/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqokaVFouhv8JehHaLjeBTNjgPvfTvQQ8KSP1JcmR3AcnuoG06K5DdnwE8v-Q-Ck05QTtnV27sVstgNQf-7uWeVtxy8stls4nkEXKtygf5BKH-fUNSThg5RDFJjzAKWVl2UxJDMueWNFBr24hD598Isl-ZBBV-tF6jG3eUeSWnPJsTMzMRdzZVw6HO9PvjMTKlcVzkqgxdKehrMwsePKq5wwAApjPmpmd1zZQIIkALFHhMM_6ff0_eNvY_lAj-1pxOTmZzwQ7ugLKppB4fxDKTC9AYQIQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            141.9228774,45.4788167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ゆき寿し</name>
+        <description>シノハユではないけど、咲-Saki-有珠山高校 真屋由暉子ちゃん</description>
+        <styleUrl>#icon-503-CDDC39</styleUrl>
+        <Point>
+          <coordinates>
+            142.0643771,43.543904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>咲-Saki-第195局「一心」扉絵</name>
+        <description><![CDATA[<img src="https://doc-0k-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/u1t5kipjmij0e0gaocumk4okjc/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqhtix7MNJvoRb9UURxwve9qr1YRvVCMwzIUbNVImtVqYd6VeBnxuRcRSiNeh4U1bDfsHhwPiDO1ypHKeH_dFbewim_e349YXfH9lmJE_bA-KHrdBuIcYQ_W03hDqFUHnyNMsa5HrpHez5OBuSycLipakw3cb6SNPAkksyT6oCCl7-oGkT66xQgjnTSDfvHvPmKKFIENmfER_q6ujtS_4GS5g-ntw6LCT-KVE64qEIJzMyo_S0Wm3NcimjhBfhLxsY4a_FLq3j-fRXS6ubwyusEUVwQuA?session=0&fife" height="200" width="auto" /><br><br>この辺？]]></description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/u1t5kipjmij0e0gaocumk4okjc/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALqhtix7MNJvoRb9UURxwve9qr1YRvVCMwzIUbNVImtVqYd6VeBnxuRcRSiNeh4U1bDfsHhwPiDO1ypHKeH_dFbewim_e349YXfH9lmJE_bA-KHrdBuIcYQ_W03hDqFUHnyNMsa5HrpHez5OBuSycLipakw3cb6SNPAkksyT6oCCl7-oGkT66xQgjnTSDfvHvPmKKFIENmfER_q6ujtS_4GS5g-ntw6LCT-KVE64qEIJzMyo_S0Wm3NcimjhBfhLxsY4a_FLq3j-fRXS6ubwyusEUVwQuA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            143.3479331,44.3557524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>茨城エリア(すこやん)</name>
+      <Placemark>
+        <name>小美玉市 生涯学習センター コスモス</name>
+        <styleUrl>#icon-1231-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.3315296,36.1547188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>立-Ritz-コミック表紙</name>
+        <styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.2978809,36.1646041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>立-Ritz-コミック裏表紙</name>
+        <styleUrl>#icon-503-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.2967919,36.1654962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第11巻第62話P96</name>
+        <description><![CDATA[<img src="https://doc-14-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/52a98ss90td40vdvi9tndl0700/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALoYSREy_n8e_32K5M5l-yNcHZthFxX1wEzjy4LfbU616wT-NX1I8c2Me1N0qeKGsRmROzw8UFraFj8r2BovBpZN-Smj04uPl6ijpMQ4BqVL3R5tx-S9Xtrx8FaAYQbZmU4cC02Hu38jxFlhkypyaaa8M9X5Jb5KBzXRMuYfO3g1-15ocsoxmXO18rw_PdqbwJ4umlkZmVxPG-u2kZ1-ou4EbfYy2FlL5fICs_kTN7Y7ue0GcHCiRvuNLSYS-cvAgQS2Q0Du7wUzTOl4_a2RwmsbbDu_Vw?session=0&fife" height="200" width="auto" /><br><br>すこやん]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-3o-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/52a98ss90td40vdvi9tndl0700/1580354100000/nPtLhAHXuPWDLIM20rlZaFYoQREZ-J0A/*/2AF2TALoYSREy_n8e_32K5M5l-yNcHZthFxX1wEzjy4LfbU616wT-NX1I8c2Me1N0qeKGsRmROzw8UFraFj8r2BovBpZN-Smj04uPl6ijpMQ4BqVL3R5tx-S9Xtrx8FaAYQbZmU4cC02Hu38jxFlhkypyaaa8M9X5Jb5KBzXRMuYfO3g1-15ocsoxmXO18rw_PdqbwJ4umlkZmVxPG-u2kZ1-ou4EbfYy2FlL5fICs_kTN7Y7ue0GcHCiRvuNLSYS-cvAgQS2Q0Du7wUzTOl4_a2RwmsbbDu_Vw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            140.30746,36.1658226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
